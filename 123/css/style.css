@@ -1,0 +1,296 @@
+.dg-container{
+	height: 20px;
+	position: relative;
+	left: 2500px;
+	width: 1700px;
+	text-align: left;
+	top: -425px;
+	z-index: 10;
+}
+.dg-wrapper{
+	width: 481px;
+	height: 316px;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	-ms-perspective: 1000px;
+	perspective: 1000px;
+	z-index: 10;
+	margin-top: 0;
+	margin-right: 400px;
+	margin-bottom: 0;
+	margin-left: 400px;
+}
+.dg-wrapper a{
+	width: 482px;
+	height: 316px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: transparent url(../images/browser.png) no-repeat top left;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+.dg-wrapper a.dg-transition{
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.dg-wrapper a img{
+	display: block;
+	padding: 41px 0px 0px 1px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.dg-wrapper a div{
+	text-align: center;
+	line-height: 50px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+	color: #666;
+	font-size: 16px;
+	width: 100%;
+	bottom: 270px;
+	display: none;
+	position: absolute;
+}
+.dg-wrapper a.dg-center div{
+	display: block;
+}
+.dg-container nav{
+	width: 58px;
+	position: absolute;
+	z-index: 1000;
+	bottom: 108px;
+	left: 38%;
+	margin-left: -29px;
+	top: 445px;
+}
+.dg-container nav span{
+	text-indent: -9000px;
+	float: left;
+	cursor:pointer;
+	width: 24px;
+	height: 25px;
+	opacity: 0.8;
+	background: transparent url(../images/arrows.png) no-repeat top left;
+}
+.dg-container nav span:hover{
+	opacity: 1;
+}
+.dg-container nav span.dg-next{
+	background-position: top right;
+	margin-left: 10px;
+}
+
+
+
+
+
+.dg-container2{
+	width: 1700px;
+	height: 10px;
+	position: relative;
+	left: 3800px;
+	top: -375px;
+	z-index: 20;
+}
+.dg-wrapper2{
+	width: 481px;
+	height: 316px;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	-ms-perspective: 1000px;
+	perspective: 1000px;
+	z-index: 20;
+	margin-top: 0;
+	margin-right: 400px;
+	margin-bottom: 0;
+	margin-left: 400px;
+}
+
+.dg-wrapper2 a{
+	width: 482px;
+	height: 316px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: transparent url(../images/browser.png) no-repeat top left;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+.dg-wrapper2 a.dg-transition2{
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.dg-wrapper2 a img{
+	display: block;
+	padding: 41px 0px 0px 1px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.dg-wrapper2 a div{
+	text-align: center;
+	line-height: 50px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+	color: #666;
+	font-size: 16px;
+	width: 100%;
+	bottom: 270px;
+	display: none;
+	position: absolute;
+}
+.dg-wrapper2 a.dg-center2 div{
+	display: block;
+}
+
+.dg-container2 nav2{
+	width: 58px;
+	position: absolute;
+	z-index: 1000;
+	bottom: 108px;
+	left: 38%;
+	margin-left: -29px;
+	top: 367px;
+}
+.dg-container2 nav2 span{
+	text-indent: -9000px;
+	float: left;
+	cursor:pointer;
+	width: 24px;
+	height: 25px;
+	opacity: 0.8;
+	background: transparent url(../images/arrows.png) no-repeat top left;
+}
+
+.dg-container2 nav2 span:hover{
+	opacity: 1;
+}
+.dg-container2 nav2 span.dg-next2{
+	background-position: top right;
+	margin-left: 10px;}
+
+
+
+
+
+.dg-container3{
+	width: 1700px;
+	height: 10px;
+	position: relative;
+	left: 5100px;
+	top: -385px;
+}
+.dg-wrapper3{
+	width: 481px;
+	height: 316px;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	-ms-perspective: 1000px;
+	perspective: 1000px;
+	z-index: 30;
+	margin-top: 0;
+	margin-right: 400px;
+	margin-bottom: 0;
+	margin-left: 400px;
+}
+
+.dg-wrapper3 a{
+	width: 482px;
+	height: 316px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: transparent url(../images/browser.png) no-repeat top left;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+.dg-wrapper3 a.dg-transition3{
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.dg-wrapper3 a img{
+	display: block;
+	padding: 41px 0px 0px 1px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.dg-wrapper3 a div{
+	text-align: center;
+	line-height: 50px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+	color: #666;
+	font-size: 16px;
+	width: 100%;
+	bottom: 270px;
+	display: none;
+	position: absolute;
+}
+.dg-wrapper3 a.dg-center3 div{
+	display: block;
+}
+
+.dg-container3 nav3{
+	width: 58px;
+	position: absolute;
+	z-index: 1000;
+	bottom: 108px;
+	left: 38%;
+	margin-left: -29px;
+	top: 367px;
+}
+.dg-container3 nav3 span{
+	text-indent: -9000px;
+	float: left;
+	cursor:pointer;
+	width: 24px;
+	height: 25px;
+	opacity: 0.8;
+	background: transparent url(../images/arrows.png) no-repeat top left;
+}
+
+.dg-container3 nav3 span:hover{
+	opacity: 1;
+}
+.dg-container3 nav3 span.dg-next3{
+	background-position: top right;
+	margin-left: 10px;}
+#content tr td div {
+	height: 105%;
+	width: 5800px;
+	z-index: 100;
+}
+ 
