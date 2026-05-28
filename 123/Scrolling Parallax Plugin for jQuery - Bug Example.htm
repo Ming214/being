@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0065)http://dev.jonraasch.com/scrolling-parallax/examples/bug-parallax -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=10.000" 
+http-equiv="X-UA-Compatible">
+ 
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<TITLE>Scrolling Parallax Plugin for jQuery - Bug Example</TITLE> 
+<STYLE type="text/css">
+
+body {
+    font-family: Georgia, "Times New Roman", Serif, serif;
+    text-align: center;
+    min-width: 800px;
+}
+
+#content {
+    width: 400px;
+    margin: 0 auto;
+    padding: 80px 0 200px 0;
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    
+}
+
+#content h1 {
+    font-size: 36px;
+}
+
+#content h1:first-letter {
+    font-size: 80px;
+}
+
+#content h2 {
+    font-size: 24px;
+}
+
+#content p {
+    line-height: 1.5em;
+}
+
+#content p.small {
+    font-size: 85%;
+}
+
+#content p.smaller {
+    font-size: 70%;
+}
+
+#bug {
+    position: fixed;
+    top: 100px;
+    left: 10%;
+    display: block;
+}
+
+.addthis_toolbox {
+    background-color: #FFF;
+    width: 250px;
+    padding: 2px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+</STYLE>
+ 
+<META name="GENERATOR" content="MSHTML 10.00.9200.17028"></HEAD> 
+<BODY><IMG title="eek!" id="bug" alt="cockroach parallax" src="Scrolling%20Parallax%20Plugin%20for%20jQuery%20-%20Bug%20Example.files/cockroach.jpg">
+<DIV id="content">
+<H1>    Bugs are really gross     </H1>
+<P>    Nobody like bugs, especially all over your monitor     </P>
+<P>    Keeping bugs away can be difficult, but using the <A href="http://jonraasch.com/blog/scrolling-parallax-jquery-plugin">jQuery 
+Scrolling Parallax plugin</A> is a piece of cake.  Scroll down to see it in 
+action on this page.     </P>
+<P>    Here I've called the scrolling parallax on a jQuery object.  As you can 
+see the plugin can be used to move an object more quickly than the page scrolls. 
+ Additionally, in this example the animation is looped.     </P>
+<P>    Increasing the scroll speed requires setting a static speed.  Normally 
+the plugin automatically determines the speed so the parallax ends at the same 
+time as the document finishes scrolling.  However with a static speed the scroll 
+moves freely.  When it reaches its end, you have several options: loop the 
+animation, stop the scrolling or let it continue.     </P>
+<H2>    More...     </H2>
+<P class="small"><A href="http://dev.jonraasch.com/scrolling-parallax/download" 
+rel="nofollow">Download Scrolling Parallax</A><BR><A href="http://dev.jonraasch.com/scrolling-parallax/documentation">Read 
+the documentation for detailed info</A><BR><A href="http://jonraasch.com/blog/scrolling-parallax-jquery-plugin">View 
+the original Scrolling Parallax blog post</A><BR><A href="http://dev.jonraasch.com/scrolling-parallax/examples/scrolling-parallax">Example 
+- Basic scrolling parallax</A><BR><A href="http://dev.jonraasch.com/scrolling-parallax/examples/multi-layered-parallax">Example 
+- Multiple parallaxes at different speeds</A><BR><A href="http://dev.jonraasch.com/scrolling-parallax/examples/multi-directional-parallax">Example 
+- Parallax in all directions: vertical and horizontal scrolling</A><BR></P><!-- AddThis Button BEGIN --> 
+    
+<DIV class="addthis_toolbox addthis_default_style"><A class="addthis_button_facebook"></A> 
+    <A class="addthis_button_twitter"></A>     <A class="addthis_button_stumbleupon"></A> 
+    <A class="addthis_button_reddit"></A>     <A 
+class="addthis_button_digg"></A>     <A class="addthis_button_delicious"></A>    
+ <A class="addthis_button_google"></A>     <A class="addthis_button_email"></A>  
+       <SPAN class="addthis_separator">|</SPAN>         <A class="addthis_button_compact">Share</A> 
+    </DIV>
+<SCRIPT src="Scrolling%20Parallax%20Plugin%20for%20jQuery%20-%20Bug%20Example.files/addthis_widget.js" type="text/javascript"></SCRIPT>
+     <!-- AddThis Button END -->         
+<P class="smaller">Thanks to <A 
+href="http://members.netmadeira.com/jefras/">Joao Estevao A. de Freitas</A> for 
+the cockroach image     </P></DIV>
+<SCRIPT src="Scrolling%20Parallax%20Plugin%20for%20jQuery%20-%20Bug%20Example.files/jquery-1.4.3.min.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="Scrolling%20Parallax%20Plugin%20for%20jQuery%20-%20Bug%20Example.files/jquery.scrolling-parallax.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+
+$(function() {
+
+    $('#bug').scrollingParallax({
+        staticSpeed : 3,
+        loopIt : true
+    });
+    
+});
+
+</SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3123668-20");
+pageTracker._trackPageview();
+} catch(err) {}</SCRIPT>
+ </BODY></HTML>
